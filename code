@@ -17,9 +17,9 @@ main() {
         rm ./jq
 
         echo -e "Installing Latest Roblox"
-        [ -d "/Users/a/Applications/Roblox.app" ] && rm -rf "/Users/a/Applications/Roblox.app"
+        [ -d "/Users/sac/Applications/Roblox.app" ] && rm -rf "/Users/sac/Applications/Roblox.app"
         unzip -o -q "./RobloxPlayer.zip"
-        mv ./RobloxPlayer.app /Users/a/Applications/Roblox.app
+        mv ./RobloxPlayer.app /Users/sac/Applications/Roblox.app
         rm ./RobloxPlayer.zip
 
         echo -e "Downloading MacSploit"
@@ -29,14 +29,14 @@ main() {
         unzip -o -q "./MacSploit.zip"
 
         echo -e "Patching Roblox"
-        mv ./macsploit.dylib "/Users/a/Applications/Roblox.app/Contents/MacOS/macsploit.dylib"
-        ./insert_dylib "/Users/a/Applications/Roblox.app/Contents/MacOS/macsploit.dylib" "/Users/a/Applications/Roblox.app/Contents/MacOS/RobloxPlayer" --strip-codesig --all-yes
-        mv "/Users/a/Applications/Roblox.app/Contents/MacOS/RobloxPlayer_patched" "/Users/a/Applications/Roblox.app/Contents/MacOS/RobloxPlayer"
+        mv ./macsploit.dylib "/Users/sac/Applications/Roblox.app/Contents/MacOS/macsploit.dylib"
+        ./insert_dylib "/Users/sac/Applications/Roblox.app/Contents/MacOS/macsploit.dylib" "/Users/sac/Applications/Roblox.app/Contents/MacOS/RobloxPlayer" --strip-codesig --all-yes
+        mv "/Users/sac/Applications/Roblox.app/Contents/MacOS/RobloxPlayer_patched" "/Users/sac/Applications/Roblox.app/Contents/MacOS/RobloxPlayer"
         rm ./insert_dylib
 
         echo -e "Installing MacSploit App"
-        [ -d "/Users/a/Applications/Macsploit.app" ] && rm -rf "/Users/a/Applications/Macsploit.app"
-        mv ./MacSploit.app /Users/a/Applications/Macsploit.app
+        [ -d "/Users/sac/Applications/Macsploit.app" ] && rm -rf "/Users/sac/Applications/Macsploit.app"
+        mv ./MacSploit.app /Users/sac/Applications/Macsploit.app
         rm ./MacSploit.zip
 
         chmod +x ./hwid
@@ -56,9 +56,9 @@ main() {
         rm ./jq
 
         echo -e "Installing Latest Roblox"
-        [ -d "/Users/a/Applications/Roblox.app" ] && rm -rf "/Users/a/Applications/Roblox.app"
+        [ -d "/Users/sac/Applications/Roblox.app" ] && rm -rf "/Users/sac/Applications/Roblox.app"
         unzip -o -q "./RobloxPlayer.zip"
-        mv ./RobloxPlayer.app /Users/a/Applications/Roblox.app
+        mv ./RobloxPlayer.app /Users/sac/Applications/Roblox.app
         rm ./RobloxPlayer.zip
 
         echo -e "Downloading MacSploit"
@@ -68,14 +68,14 @@ main() {
         unzip -o -q "./MacSploit.zip"
 
         echo -e "Patching Roblox"
-        mv ./macsploit.dylib "/Users/a/Applications/Roblox.app/Contents/MacOS/macsploit.dylib"
-        ./insert_dylib "/Users/a/Applications/Roblox.app/Contents/MacOS/macsploit.dylib" "/Users/a/Applications/Roblox.app/Contents/MacOS/RobloxPlayer" --strip-codesig --all-yes
-        mv "/Users/a/Applications/Roblox.app/Contents/MacOS/RobloxPlayer_patched" "/Users/a/Applications/Roblox.app/Contents/MacOS/RobloxPlayer"
+        mv ./macsploit.dylib "/Users/sac/Applications/Roblox.app/Contents/MacOS/macsploit.dylib"
+        ./insert_dylib "/Users/sac/Applications/Roblox.app/Contents/MacOS/macsploit.dylib" "/Users/sac/Applications/Roblox.app/Contents/MacOS/RobloxPlayer" --strip-codesig --all-yes
+        mv "/Users/sac/Applications/Roblox.app/Contents/MacOS/RobloxPlayer_patched" "/Users/sac/Applications/Roblox.app/Contents/MacOS/RobloxPlayer"
         rm ./insert_dylib
 
         echo -e "Installing MacSploit App"
-        [ -d "/Users/a/Applications/Macsploit.app" ] && rm -rf "/Users/a/Applications/Macsploit.app"
-        mv ./MacSploit.app /Users/a/Applications/Macsploit.app
+        [ -d "/Users/sac/Applications/Macsploit.app" ] && rm -rf "/Users/sac/Applications/Macsploit.app"
+        mv ./MacSploit.app /Users/sac/Applications/Macsploit.app
         rm ./MacSploit.zip
 
         chmod +x ./hwid
